@@ -3,10 +3,54 @@
 	{
 		"selected_items":
 		[
+			[
+				"gr",
+				"group"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/mac/simapp/Gemfile",
+			"settings":
+			{
+				"buffer_size": 2169,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mac/simapp/app/assets/stylesheets/bootstrap_custom.css.scss",
+			"settings":
+			{
+				"buffer_size": 19,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mac/simapp/app/views/pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mac/simapp/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/mac/simapp/app/assets/javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 761,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -32,15 +76,19 @@
 	},
 	"file_history":
 	[
-		"/Users/mac/simapp/config/routes.rb"
+		"/Users/mac/simapp/config/database.yml",
+		"/Users/mac/simapp/app/views/pages/home.html.erb",
+		"/Users/mac/simapp/app/controllers/pages_controller.rb",
+		"/Users/mac/simapp/config/routes.rb",
+		"/Users/mac/simapp/app/controllers/pages_controller"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 		]
@@ -50,6 +98,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gemfile"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -67,8 +116,141 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/mac/simapp/Gemfile",
+					"settings":
+					{
+						"buffer_size": 2169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/mac/simapp/app/assets/stylesheets/bootstrap_custom.css.scss",
+					"settings":
+					{
+						"buffer_size": 19,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/mac/simapp/app/views/pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/mac/simapp/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/mac/simapp/app/assets/javascripts/application.js",
+					"settings":
+					{
+						"buffer_size": 761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								676,
+								676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -78,7 +260,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
