@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Heroku should use this version of ruby
-ruby '2.3.3'
+ruby '2.4.0'
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -20,6 +20,9 @@ gem 'pg' , group: :production
 
 #12 factor for heroku
 gem 'rails_12factor', group: :production
+
+# stripe for taking payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 
 # add twitter bootstrap
